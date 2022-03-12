@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/green_pastel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/bg"
+            android:backgroundTint="@color/gray1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+        <ImageView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/person"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_baseline_person_24" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:background="@drawable/srchh_bg"
+        android:backgroundTint="@color/biru1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:id="@+id/latar1_image_view"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/dasar" />
+
+        <TextView
+            android:id="@+id/name_person1_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Gopay"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="35dp"
+            android:text="RP. 109.048"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="55dp"
+            android:text="Klik dan cek riwayat"
+            android:textColor="@color/green_pastel"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/person1_image_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/person1_image_view"
+            android:text="Isi Saldo"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-42dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/person1_image_view"
+            android:text="Bayar"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="6dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_explore" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/person1_image_view"
+            android:text="Explor"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/srchh_bg"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/hijau"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/goride"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gojek" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/goride_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="55dp"
+            android:text="GoRide"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/hijau"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/goCar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ic_car" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/pink"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+            <ImageView
+                android:id="@+id/gofood"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/makan" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/gofood_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="55dp"
+            android:text="Gofood"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="307dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/hijau"
+            >
+
+            <ImageView
+                android:id="@+id/gosend"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_gosend" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/gosend_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="55dp"
+            android:text="Gosend"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/pink"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_shopping" >
+
+            <ImageView
+                android:id="@+id/chekin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shop" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/GoMart_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="135dp"
+            android:text="GoMart"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/biru"
+            >
+
+            <ImageView
+                android:id="@+id/GoPulsa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_phone_iphone_24" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="202dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/biru"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/cekin"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cekin" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="307dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/hijau"
+            >
+
+            <ImageView
+                android:id="@+id/ChekIn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_lainnya" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ChekIn_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="135dp"
+            android:text="Chek In"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Lainnya_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="135dp"
+            android:text="Lainyya"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/GoPulsa_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="135dp"
+            android:text="GoPulsa"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/goCar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="55dp"
+            android:text="GoCar"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:background="@drawable/bg3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/bintang"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/bintang_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="193 XP Lagi Ada Harta Karun"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harta_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:text=" Harta Karun Bentar Lagi Hilang"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:max="100"
+            android:progress="10" />
+
+        <TextView
+            android:id="@+id/tanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="18dp"
+            android:text=">"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Akskes Cepat"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        />
+    <RelativeLayout
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:background="@drawable/bg4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/diskon"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/diskon" />
+
+        <TextView
+            android:id="@+id/diskon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:text=" Ada Vocher Nganggur, Nih"
+            android:textColor="@color/abu"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/makan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/makan" />
+
+        <TextView
+            android:id="@+id/makan_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:text=" Restoran terdekat"
+            android:textColor="@color/abu"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tandadiskon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="8dp"
+            android:text=">"
+            android:textColor="@color/abu"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/tandamakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="35dp"
+            android:text=">"
+            android:textColor="@color/abu"
+            android:textSize="35dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:background="@drawable/bg4"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <ImageView
+            android:id="@+id/promodiskon"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/promosi" />
+        <TextView
+            android:id="@+id/teks1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            android:text="Festival Idaman Perempuan!"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="135dp"
+            android:text="Temukan Kebutuhan Cantikmu dengan Pakai Gopay"
+            android:textColor="@color/abu"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/teks3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:text="Dengan cashback 50% klik. "
+            android:textColor="@color/abu"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/beranda"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_home" />
+
+        <TextView
+            android:id="@+id/home_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:text="Beranda"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        //2
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/promo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/promo" />
+
+        <TextView
+            android:id="@+id/promo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:text="Promo"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        //3
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/pesanan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pesanan" />
+
+        <TextView
+            android:id="@+id/pesanan_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:text="Pesanan"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        //4
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <ImageView
+            android:id="@+id/Chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/chat_icon" />
+
+        <TextView
+            android:id="@+id/Chat_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:text="Pesanan"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

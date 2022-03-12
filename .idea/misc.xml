@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/drawable-v24/bg.xml" value="0.137" />
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/drawable/bg3.xml" value="0.137" />
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/drawable/gojek.xml" value="0.137" />
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/drawable/ic_car.xml" value="0.137" />
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/drawable/pesanan.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/drawable/srchh_bg.xml" value="0.137" />
+        <entry key="..\:/Users/Dell/Documents/Studi Independen - Kampus Merdeka - Binar Academy - Android Developer/Android Developer/chapter 2/Chapter 2_Program/gojek_ChallangeChapter2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
